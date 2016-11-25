@@ -2,6 +2,24 @@ img#intro-pic {
   float: right;
 }
 
-h1 {
+.jumbotron h1 {
   text-align: center;
+  color: red;
+}
+
+#confirmation {
+  display: none;
+  text-align: center;
+  font-size: 30px;
+  border: 2px solid red;
+}
+
+#confirmation .reserve {
+  color: red;
+  font-weight: bold;
+}
+
+#confirmation .user-info {
+  text-align: center;
+  color: green;
 }

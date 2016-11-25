@@ -3,8 +3,14 @@ $(document).ready(function() {
     event.preventDefault();
     var userName = $("#user-name").val();
     var selectedDate = $("#date").val();
-    var startTime = $("#start").val();;
+    var startTime = $("#start").val();
     var endTime = $("#end").val();
-    var listReservation = function();
+
+    $("#confirmation").show();
+    $(".name").text(userName);
+    $(".date").text(selectedDate);
+    $(".starting").text(startTime);
+    $(".ending").text(endTime);
+
   });
 });
